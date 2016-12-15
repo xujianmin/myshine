@@ -40,3 +40,8 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+
+config/database.yml
+
+*/.DS_store
+.DS_store
