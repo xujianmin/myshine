@@ -1,15 +1,11 @@
 <nav>
   <ul class="pager">
     <li class="previous <%= page == 0 ? 'disabled' : '' %> ">
-      <% if page <= 0 %>
-        <a>&larr; Previous</a>
-      <% else %>
-        <a href="" ng-click="previousPage()">&larr; Previous</a>
-      <% end %>
+      <a href="#" ng-click="previousPage()">&larr; Previous</a>
     </li>
 
     <li class="next">
-      <a href="" ng-click="nextPage()">Next &rarr;</a>
+      <a href="#" ng-click="nextPage()">Next &rarr;</a>
     </li>
   </ul>
 </nav>
